@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+    font-family: "Times New Roman", cursive, fantasy;
+    font-size: 14px;
+}
+
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+    background-color: #8fbc8f;
+}
+
+.menu{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    margin-left: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: #7fffd4;
+}
+
+.container{
+    width: inherit;
+}
+
+.container .leftSide{
+    width: 24%;
+    border-right: 1px solid green;
+}
+
+.container .content{
+    width: 75%;
+}
+
+.footer{
+    height: 50px;
+}
+
+.footer p{
+    text-align: center;
+    padding-top: 15px;
+}
