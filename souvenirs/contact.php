@@ -9,7 +9,7 @@
         include_once('pieces/p_head.php');
     include_once('pieces/p_css.php');
     ?>
-    <title>Главная</title>
+    <title>Контакты</title>
 </head>
 <body>
 

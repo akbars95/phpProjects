@@ -61,8 +61,51 @@ body{
     border-right: 1px solid green;
 }
 
+.leftSide ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.leftSide ul li{
+    display: block;
+}
+
+.leftSide ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
 .container .content{
     width: 75%;
+}
+
+.innerSider{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.innerSider .previous, .innerSider .next{
+    width: 25px;
+    height: 300px;
+    background-color: green;
+    opacity: 0.25;
+}
+
+.innerSider .previous:hover, .innerSider .next:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.slider{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.slider img{
+    width: 400px;
+    height: 300px;
 }
 
 .footer{
