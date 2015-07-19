@@ -8,7 +8,7 @@
     </div>
     <div class="container">
         <div class="left leftSide">
-            <ul>
+            <ul class="side">
                 <li><a href="index.php">Главная</a></li>
                 <li><a href="catalog.php">Каталог</a></li>
                 <li><a href="contact.php">Контакты</a></li>
